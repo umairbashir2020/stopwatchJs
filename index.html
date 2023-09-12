@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopWatch</title>
+    <script src="script.js" defer></script>
+</head>
+<style>
+    body{
+        /* background-color: green; */
+        background-color: #cc5333;
+        text-align: center;
+    }
+    h1{
+        display: inline-block;
+        padding: 10px;
+        width: 100px;
+        border-radius: 5px 5px;
+        background-color: aliceblue;
+    }
+    button{
+        padding: 10px;
+        background-color: aliceblue;
+        width: 100px;
+        font-size: x-large;
+        border-radius: 10px 10px 10px;
+    }
+    #heading{
+        border-radius:10px;
+        padding: 15px;
+        width: 170px;
+    }
+</style>
+<body>
+    <h1 id="heading">Stop Watch</h1>
+    <div>
+        <h1 id="hour">0</h1>
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="milsec">0</h1>
+    </div>
+    <button onclick=start()>start</button>
+    <button onclick=pause()>pause</button>
+    <button onclick=reset()>reset</button>
+   
+    
+</body>
+</html>
